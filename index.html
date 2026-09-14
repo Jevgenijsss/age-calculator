@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Age Calculator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./node_modules/js-datepicker/dist/datepicker.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Age Calculator</h1>
+            <form class="datepicker-container">
+                <input type="text" id="datepicker" placeholder="Select your birth date">
+                <button id="submit-btn">Calculate</button>
+            </form>
+            <p id="result"></p>
+        </main>
+        <script src="./node_modules/luxon/build/global/luxon.min.js"></script>
+        <script src="./node_modules/js-datepicker/dist/datepicker.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
